@@ -54,7 +54,24 @@ def a_new_function_demo():
 
 
 
+def quadratic(a, b, c)
+A = b **2-4*a*c 
 
+if A >= 0 
+    x1=((-b+math.sqrt(A))/2*a)
+    x2=((-b-math.sqrt(A)/)2*a)
+    return x1,x2
+
+else:
+    #print('No real number solution')
+    return "Anything" 
+
+a = int(input('please enter a number:'))
+b = int(input('please enter a number:'))
+c = int(input('please enter a number:'))
+print('results are:')
+msg = quadratic(a,b,c)
+print(msg)
 
 
 

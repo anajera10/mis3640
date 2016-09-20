@@ -100,7 +100,7 @@
             "secret": "my_secret",
             "host": "localhost"
         }
-        
+    ]
 {
     "version": "0.2.0",
     "configurations": [
@@ -204,3 +204,5 @@
             "host": "localhost"
         }
     ]
+>>>>>>> origin/master
+}
